@@ -29,7 +29,9 @@ function App() {
       {/* <TestCode 작명='테스트props' />
       <TestCode />
       <TestCode /> */}
-      {isModal && <Modal isModal={isModal} setIsModal={setIsModal} count={count} setCount={setCount} txt={txt} />}
+      {
+      isModal && 
+      <Modal isModal={isModal} setIsModal={setIsModal} count={count} setCount={setCount} txt={txt} />}
       {/* </> self closing tag  */}
     </>
   );
