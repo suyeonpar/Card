@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal{
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  animation: slide 0.5s forwards;
+}
+@keyframes slide{
+  0%{transform: translate(-50%, -100%);
+  opacity: 0;}
+  100%{
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
